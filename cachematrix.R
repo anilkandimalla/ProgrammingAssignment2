@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+
+## Below function get the matrix from the Cache
 
 makeCacheMatrix <- function(x = matrix()) {
  #initalizing the matrixinverse value to NULL
@@ -28,7 +27,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Below Function will calculate the inverse by use of solve function
+#It is Assumed by default we calculate the inverse of det(matrix) !=0 matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
